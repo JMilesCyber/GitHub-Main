@@ -110,3 +110,13 @@ Final response must include:
 - Never include ingredients from the user's dislikes or restrictions.
 - Clearly label assumptions if user input is incomplete.
 - If budget is too low, propose a "budget fallback plan" rather than failing.
+
+## Weekly Plan Document Output
+
+On each completed weekly plan, write or overwrite:
+- `mcp-server/docs/meal-plans/current-weekly-meal-plan.txt`
+
+Requirements:
+- Overwrite this file for each new week.
+- Keep it plain text for easy opening/editing.
+- Include: intake summary, 7-day plan, grocery list + budget check, prep strategy, and full recipes.
