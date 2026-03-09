@@ -1,0 +1,7 @@
+# Sensitive: do not commit bank/transaction data
+transactions/*
+!transactions/README.md
+
+# Optional: uncomment to keep weekly reports local only
+# reports/*.md
+# !reports/README.md
