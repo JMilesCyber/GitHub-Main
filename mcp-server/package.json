@@ -1,0 +1,26 @@
+{
+  "name": "local-chatbot-mcp",
+  "version": "1.0.0",
+  "description": "Local MCP server for a personal chatbot with teachable skills (tools)",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": ["mcp", "modelcontextprotocol", "chatbot", "skills"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.2"
+  }
+}
